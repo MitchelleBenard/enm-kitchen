@@ -38,7 +38,8 @@ def order():
             f"📞 Phone: {data['phone']}\n"
             f"🍰 Flavour: {data['cake_flavour']}\n"
             f"📏 Size: {data['size']}\n"
-            f"🎨 Colour: {data['colour']}\n"
+            f"🎨 
+            Colour: {data['colour']}\n"
             f"🧁 Icing: {data['icing']}\n"
             f"🚚 Delivery: {data['delivery']}\n"
             f"📅 Date: {data['date']}\n"
