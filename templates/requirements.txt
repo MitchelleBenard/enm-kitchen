@@ -2,4 +2,4 @@ Flask
 Jinja2
 requests
 python-dotenv
-
+gunicorn
