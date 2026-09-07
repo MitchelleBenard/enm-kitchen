@@ -10,10 +10,13 @@ WHATSAPP_API_KEY = "YOUR_CALLMEBOT_API_KEY"  # replace with your actual API key 
 
 @app.route("/")
 def home():
-    return render_template("order.html")
+    return render_template("index.html")
 
-@app.route("/order", methods=["POST"])
+@app.route("/order", methods=["GET", "POST"])
 def order():
+    if request.method == "GET":
+        return render_template("order.html")
+
     try:
         # Collect form data
         data = {
